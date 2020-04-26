@@ -13,12 +13,13 @@
     "react-scripts": "^3.3.0",
     "react-sparklines": "^1.7.0",
     "redux": "^4.0.4",
-    "redux-promise": "^0.6.0"
+    "redux-promise": "^0.6.0",
+    "serve": "^11.3.0"
   },
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",   
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "react-scripts build"
   },
